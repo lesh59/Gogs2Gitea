@@ -94,7 +94,7 @@ SQL is not a procedural language, so complex things are harder to acheive, but s
 <br />  
 
 
-## Instuctions
+## Instructions
 1. Backup everything.
 2. Optionally copy the Gogs git repositories to a new location.
 3. Make sure that the new Gitea installation will have correct permisions to db's / file locations etc.

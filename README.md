@@ -14,7 +14,7 @@
 <br />  
   
 Note: This should also work with Gitea version 1.12.6.  
-After upgrade no changes to the database structure were detected, and the database structure version remained the same at 1.141.  
+After upgrade no changes to the database structure were detected, and the database structure version remained the same at 141.  
    
 <br />  
    

@@ -1,4 +1,3 @@
-# Gogs2Gitea  
 
 <h1>
 <img src="./resource/favicon.png" width="30" height="30" align="left">
@@ -8,14 +7,22 @@
 
 <br />
 
-- Gogs Application version  0.12.3 (Database version 1.19)
-- Gitea Application version 1.12.5 (Database version 1.141)
+- Gogs Application version  0.12.3 (Database version 19)
+- Gitea Application version 1.12.5 (Database version 141)
   
 <br />  
   
-Note: This should also work with Gitea version 1.12.6.  
-After upgrade no changes to the database structure were detected, and the database structure version remained the same at 141.  
-   
+
+## Update: 
+``` 
+After upgrading to Gitea 1.13.0, the version in the version table increased to 156.  
+However, I did not detect any changes in the database structure.
+Maybe this version number doesn't relate to the database structure,
+or, the changes are in databases other than MySQL / MariaDB.
+
+This means that this script should work with Gitea version 1.12.6 and 1.13.0 as well as 1.12.5.
+  
+```   
 <br />  
    
 ## Purpose
@@ -29,6 +36,7 @@ It may form the basis for migrating from other versions of Gogs to this / future
 |     |Gogs 0.11.8  |Gogs 0.11.9  |Gogs 0.12.3  |
 |-------------|-------------|-------------|-------------|
 |**Gitea 1.12.5** |      x      |      x      |    ***This***     |
+|**Gitea 1.13.0** |      x      |      x      |    ***This***     |
 |**Future**       |      x      |      x      |     x       |
 |**Future**       |      x      |      x      |     x       |
 |**Future**       |      x      |      x      |    etc      |
